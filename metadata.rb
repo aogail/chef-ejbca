@@ -1,0 +1,12 @@
+name             'ejbca'
+maintainer       'Ben Jansen'
+maintainer_email 'aogail@w007.org'
+license          'MIT'
+description      'Installs/Configures ejbca'
+long_description 'Installs/Configures ejbca'
+version          '0.1.0'
+
+depends 'apt'
+depends 'ark'
+depends 'java_properties'
+depends 'entropy'
