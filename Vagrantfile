@@ -6,11 +6,6 @@ VAGRANTFILE_API_VERSION = '2'
 
 RUN_LIST = %w(recipe[ejbca])
 CHEF_ATTRIBUTES = {
-    cap: {
-        agent: {
-            release: 'develop'
-        }
-    }
 }
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
